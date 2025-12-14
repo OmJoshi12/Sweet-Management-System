@@ -34,7 +34,6 @@ This repository is structured to demonstrate API design, database usage, fronten
 
 - **Backend**: Node.js, Express, MongoDB (Mongoose), JWT, bcrypt
 - **Frontend**: React (Create React App), React Router, Axios
-- **Testing**: Jest + Supertest
 
 ## Project Structure
 
@@ -44,7 +43,6 @@ This repository is structured to demonstrate API design, database usage, fronten
   - `src/routes/*` REST routes
   - `src/controllers/*` request handlers
   - `src/models/*` Mongoose models
-  - `tests/*` Jest/Supertest integration tests
 - **frontend/**
   - React SPA (Login/Register/Dashboard/Sweet details + admin pages)
 
@@ -63,8 +61,8 @@ Create a file `backend/.env`:
 
 ```bash
 PORT=4000
-MONGODB_URI=mongodb://127.0.0.1:27017/sweetshop
-JWT_SECRET=replace_me_with_a_long_random_secret
+MONGODB_URI=write your mongodb uri here
+JWT_SECRET=write your jwt secret key here
 ```
 
 ### Frontend (`frontend/.env`) (optional)
@@ -177,11 +175,9 @@ In this repo, Jest + Supertest integration tests cover auth and sweets workflows
 
 Add screenshots to the repo and reference them here:
 
-- Login page
 - Register page
 - Dashboard (sweets list)
 - Admin actions (add/edit/delete)
-- Purchase flow
 - Everything in Screenshots folder
 
 Example:
@@ -242,3 +238,7 @@ git commit -m "feat: Implement user registration endpoint" \
 ### Reflection
 
 AI sped up boilerplate, reduced iteration time while debugging integration issues, and helped keep docs aligned with requirements. I still verified behavior locally, reviewed changes, and made final decisions on architecture and security.
+
+### Extra Things 
+
+I have Deleted All The Unnecessary Files And Folders From This Repo To Make It More Clean And Easy for Everyone To Understand And Use It.
